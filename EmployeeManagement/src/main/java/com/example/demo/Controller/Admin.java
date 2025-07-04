@@ -8,8 +8,7 @@ public class Admin {
 	@GetMapping("/add")
 	public String addAdmin()
 	{
-		System.out.println("Admin Added");
-		return "admin added";
+		return "admin";
 	}
 
 }
